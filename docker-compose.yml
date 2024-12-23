@@ -1,8 +1,8 @@
-version: '3'
+version: '3' #version of docker compose 
 services:
-  web:
-    build: .
-    ports:
+  web:                  #Service name
+    build: .            #build the file in current directry
+    ports:              
       - "5000:5000"
     volumes:
-      - .:/appw
+      - .:/app          # we are pass the current directry in the folder".:" and map it to /app in the container
