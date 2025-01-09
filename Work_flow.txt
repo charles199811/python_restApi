@@ -4,3 +4,5 @@ Created docker image Mounts the current directory into /app inside the container
 
 Create the blueprint
 Create a recourse folder 
+
+need to continiue
